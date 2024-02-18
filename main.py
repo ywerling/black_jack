@@ -20,8 +20,11 @@
 ##################### Hints #####################
 
 import random
+
 import art
-from replit import clear
+
+
+# from replit import clear
 
 # Hint 1: Go to this website and try out the Blackjack game:
 #   https://games.washingtonpost.com/games/blackjack/
@@ -122,7 +125,7 @@ def play_blackjack():
 
 
 while (input("Do you want to play a game of Blackjack? (y/n): ") == "y"):
-    clear()
+#    clear()
     print(art.logo)
     play_blackjack()
 
